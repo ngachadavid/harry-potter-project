@@ -51,7 +51,7 @@ const CharacterDetail: React.FC = () => {
           <p className="text-gray-600 mb-1">House: {character.house}</p>
           <p className="text-gray-600 mb-1">Date of Birth: {character.dateOfBirth}</p>
           <p className="text-gray-600 mb-1">
-            Wand: {character.wand.wood} wood, {character.wand.core}, {character.wand.length}
+            Wand: {character.wand.wood} wood {character.wand.core}, {character.wand.length}
           </p>
           <p className="text-gray-600 mb-4">Patronus: {character.patronus}</p>
           {/* Add more character details */}
