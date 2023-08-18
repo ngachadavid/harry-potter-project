@@ -1,0 +1,7 @@
+{
+    "codeCoverage": {
+      "exclude": ["node_modules"],
+      "reporters": ["lcov", "text-summary"]
+    }
+}
+  
